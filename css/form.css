@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+.estilo{
+    border-color: rgb(207, 203, 198);
+    border: 2% solid;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; /* Espaçamento entre os itens */
+  }
+  legend {
+    font-weight: bold;
+    margin-bottom: 8px; /* Espaçamento entre o título e os checkboxes */
+  }
+
+
