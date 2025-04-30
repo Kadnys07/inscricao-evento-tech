@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evento Tech 2025</title>
-    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/form.css"> 
 </head>
 <body>
   <div class="estilo">
@@ -14,7 +14,7 @@
        <fieldset class="fs1">
             <legend>Dados Pessoais</legend>
             
-            <input type="text" id="nome" name="nome" placeholder="Nome:">
+            <input type="text" id="nome" name="nome" placeholder="Nome:" required>
 
             <input type="email" id="email" name="email" placeholder="E-mail:" required>
 
@@ -30,6 +30,7 @@
         <legend>Preferências do Evento</legend>
         <label for="interesse">Tema de interesse</label>
         <select id="interesse" name="interesse">
+            <option value="escolha">Escolha opção de interesse</option>
             <option value="Front-end">Front-end</option>
             <option value="Back-end">Back-end</option>
             <option value="Database">Database</option>
@@ -58,6 +59,7 @@
         <label for="PDF">Anexar Apresentação (PDF): </label>
         <input type="file" id="PDF" name="PDF" accept=".pdf" required>
        </fieldset>
+       <button type="submit" id="Enviar Inscrição">Enviar</button>
     </form>
   </div>
 </body>
